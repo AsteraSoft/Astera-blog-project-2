@@ -21,16 +21,17 @@
       "id": 1,
       "name": "typicode",
       "email": "user@example.com"
+    },
+    {
+      "name": "astera",
+      "email": "astera@gmail.com",
+      "id": 2
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Uncatagorized"
-    },
-    {
-      "name": "cate",
-      "id": 2
     }
   ]
 }
