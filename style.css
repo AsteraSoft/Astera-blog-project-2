@@ -1,0 +1,45 @@
+.navbar,
+.color1{
+    background-color:gray;
+}
+tr,td{
+    text-align: center;
+    background-color: lightgray;
+}
+#adminlink{
+color: black;
+}
+#TCate{
+position:right;
+}
+#divCate{
+margin-right:2%;
+margin-top:0 px;
+    
+}
+#newPost{
+    border-radius: 2px solid gray;
+    margin: 2%;
+}
+#uform{
+    margin-left: 3%;
+}
+.ubody{
+    margin: 0 auto;
+}
+.uname{
+    margin: o auto;
+}
+.input{
+    border: none;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-radius: 15px;
+
+}
+
+.f{
+    background-color: lightblue;
+    border: 2px solid lightslategray;
+    
+}

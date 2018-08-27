@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+
+  
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid color1">
+                          <div class="navbar-header">
+                            <a class="navbar-brand mb-0 h1" >Re:codede Blog</a>
+                            <a  class="navbar-brand" href="../index.html">main page</a>
+                          </div>
+                          <div class="nav navbar-nav">
+                            <a href="posts.html" class="navbar-brand h2">Post</a>
+                            <a href="comments.html" class="navbar-brand h2"> Comments</a>
+                            <a href="users.html" class="navbar-brand h2">Users</a>
+                            <a href="categories.html" class="navbar-brand h2">Categoriges</a>
+                          </div>
+                        </div>
+                      </nav>
+        </header>
+        <form id="create-form">
+                <h2><b><i>New Catagory</i></b></h2>
+                <div>
+                    <div class="form1">
+                        <label><b>Catagory:</b></label>
+                        <input required placeholder="Enter here" type="text" id="cate" class="input" >
+                    </div>
+                    <br>
+                    <button type="submit" class="  mb-2 btn btn-outline-success" id="sub-button">Submit</button>                   
+                </div>
+            </form>
+            <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Categoriges</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                    </table>
+                  </div>
+                    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+                    <script src="categories.js"></script>
+</body>
+</html>
